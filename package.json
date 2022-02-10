@@ -1,0 +1,30 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "description": "An ecommerce api built with node and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerslearnit/nodejs-ecommerce-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "nodemon"
+  ],
+  "author": "Adesina Mark Omoniyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developerslearnit/nodejs-ecommerce-api/issues"
+  },
+  "homepage": "https://github.com/developerslearnit/nodejs-ecommerce-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
